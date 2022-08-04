@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ header {
+     width: 100%;
+     height: 44px;
+     background-color: #000000e6;
+     position: sticky;
+     top: 0;
+     backdrop-filter: blur(5px);
+ }
+ nav {
+     width: 65%;
+     height: 100%;
+     margin: auto;
+ }
+
+.collection {
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style: none;
+     
+ }
+ 
+ .items {
+     font-size: 12px;
+     color: #ddd;
+ }
+ .items:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #C6E1E6;
+ }
+ .items i {
+    font-size: 15px;
+ }
+ .banner {
+     width: 100%;
+    height: 550px;
+    text-align: center;
+    padding-top: 40px;
+   
+
+ }
+ .links a {
+     text-decoration: none;
+     margin: 0 15px;
+     color: dodgerblue;
+
+ }
+ .links a:hover {
+     text-decoration: underline;
+ }
+ .banner h1 {
+     font-size: 50px;
+
+ }
+ .banner h3{
+     font-weight: 300;
+     font-style: 28px;
+     padding-bottom: 16px;
+ }
+ .pro13 {
+     background: url("./first.jpg") no-repeat center/cover;
+ }
+ .iphonese {
+    background: url("./second.jpg") no-repeat center/cover;
+}
+.watch {
+    background: url("./sixth.jpg") no-repeat center/cover;
+}
+.watch h4 {
+    color: red;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.both {
+    width: 49%;
+    margin: 0.5%;
+    height: 550px;
+    
+    text-align: center;
+    padding-top: 70px;
+}
+.both h1 {
+ font-weight: 300;
+ font-size: 22px;
+ padding: 12px 0 ;
+}
+.onn {
+    background: url("./fifth.jpg") no-repeat center/cover;
+}
+.studio {
+    background: url("./eighth.jpg") no-repeat center/cover;
+}
+.mega {
+    background: url(./seventh.jpg) no-repeat center/cover;
+}
+.girls {
+    background: url("./nineth.jpg") no-repeat center/cover;
+    
+}
+.girls h3 h1 {
+    padding-top: 70px;
+}
+.swift {
+    background: url("./tenth.jpg") no-repeat center/cover;
+    color: #C6E1E6;
+    padding-top: 380px;
+}
+.okay {
+    background: url("./fourth.jpg") no-repeat center/cover;
+    color: #fff;
+}
+.okay h1 i {
+    color: blueviolet;
+    font-family: cursive;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(240, 236, 236);
+    font-family: sans-serif;
+    
+}
+
+.omit {
+    font-size: 10px;
+    width: 1000px;
+    padding-left: 300px;
+    padding-top: 10px;
+    color: grey;
+}
+hr {
+    width: 55%;
+    margin-left: 290px;
+    margin-top: 20px;
+}
+.shop {
+    margin-top: 20px;
+   
+}
+.shopp {
+    padding-left: 300px;  
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.colect {
+    list-style: none;
+    font-size: 10px;
+    color: grey;
+    padding-left: 300px;
+    cursor: pointer;  
+}
+.lists {
+    padding: 3px;
+}
+.services {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.servicess {
+    padding-left: 300px;  
+    font-size: 10px;
+    margin-top: -390px;
+position: relative;
+left: 45px;
+}
+.colect1 {
+    list-style: none;
+    font-size: 10px;
+    color: grey;
+    margin-right: 700px;
+    margin-top: -190px;
+    cursor: pointer;
+}
+.lists1 {
+padding: 3px;
+}
+
+.account {
+    margin-left: 450px;
+    margin-top: 20px;
+    
+}
+.accountt {
+    font-size: 10px;
+    padding: 5px;
+
+}
+.colect2 {
+    list-style: none;
+    font-size: 10px;
+    color: grey;
+    cursor: pointer;
+
+}
+.lists2 {
+    padding: 3px;
+}
+.applest {
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.applestt {
+    font-size: 10px;
+    padding: 5px;
+}
+.colect3 {
+    font-size: 10px;
+    color: grey;
+    list-style: none;
+    cursor: pointer;
+    
+}
+.lists3 {
+    padding: 3px;
+}
+.business {
+    margin-left: 760px;
+    margin-top: -190px;
+}
+.businesss {
+    font-size: 10px;
+    padding: 5px;
+}
+.colect4 {
+    font-size: 10px;
+    color: grey;
+    list-style: none;
+    cursor: pointer;
+
+}
+.lists4 {
+    padding: 3px;
+}
+.education {
+    margin-left: 760px;
+    margin-top: 20px;
+}
+.educationn {
+    font-size: 10px;
+    padding: 5px;
+}
+.colect5 {
+    font-size: 10px;
+    color: grey;
+    list-style: none;
+    cursor: pointer;
+}
+.lists5 {
+    padding: 3px;
+}
+
+.health {
+    margin-left: 760px;
+    margin-top: 20px;
+}
+.healthh {
+font-size: 10px;
+padding: 5px;
+}
+.colect6 {
+    font-size: 10px;
+    color: grey;
+    list-style: none;
+    cursor: pointer;
+}
+
+.lists6 {
+    padding: 3px;
+}
+
+.goverenment {
+    margin-left: 760px;
+    margin-top: 20px;
+}
+.goverenmentt {
+    font-size: 10px;
+    padding: 5px;
+}
+.colect7 {
+    font-size: 10px;
+    color: grey;
+    list-style: none;
+    cursor: pointer;
+}
+.lists7 {
+  padding: 3px;  
+}
+
+
+.appleva {
+    margin-left: 920px;
+    margin-top: -310px;
+}
+.applevaa {
+    font-size: 10px;
+    padding: 5px;
+}
+.colect8 {
+    font-size: 10px;
+    color: grey;
+    list-style: none;
+    cursor: pointer;
+}
+.lists8 {
+    padding: 3px;
+}
+
+.aboutpe {
+    margin-left: 920px;
+    margin-top: 20px;
+}
+.aboutpee {
+    font-size: 10px;
+    padding: 5px;
+}
+.colect9 {
+    font-size: 10px;
+    color: grey;
+    list-style: none;
+    cursor: pointer;
+}
+.lists9 {
+    padding: 3px;
+}
+.lists9:hover {
+    text-decoration: underline;
+}
+
+.more {
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 10px;
+    color: grey;
+}
+
+.more a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+.more a:hover {
+    text-decoration: underline;
+}
+
+.copyrr {
+    margin-left: 300px;
+    font-size: 10px;
+    color: grey;
+}
+.lasts {
+    font-size: 10px;
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+
+    
+}
+.lastss {
+    padding: 15px; 
+    position: relative; 
+    left: 530px;
+    bottom: 25px;
+    color: grey;
+}
+.lastss:hover {
+    text-decoration: underline;
+}
+
+
+
+.count {
+    margin-left: 550px;
+    margin-top: -10px;
+    color: grey;
+    
+}
+.count:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
